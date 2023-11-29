@@ -1,0 +1,37 @@
+<!-- Ejercicio 26 de selectivos -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora de Precio con Descuento</title>
+</head>
+
+<body>
+    <header><h1>Calculadora de Precio con Descuento</h1></header>
+    <main>
+        <section class="container">
+        <form action="index.html">
+        <label for="precio">
+            <input type="number" id="precio" value="" placeholder="Precio del artículo:" min="0" required>
+            </label>
+        <label for="descuento">
+            <input type="number" id="descuento" value="" placeholder="Porcentaje de descuento:" min="0" max="100" required>
+            </label>
+        <div class="botones">
+            <button type="button" class="boton" onclick="ope.calcularPrecioFinal()">Aceptar</button>
+            <button type="submit" class="boton" >Regresar</button>
+        </div>
+        <div id="resultado" >
+        Respuesta:
+        </div>
+    </main>
+    <footer>
+        <p><h6>InovaByte Tech</h6></p>
+     </footer>
+     <script src="sript.js"></script>
+    
+</body>
+</html>

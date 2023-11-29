@@ -1,0 +1,37 @@
+<!-- Ejercicio 27 de selectivos -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora de Factura con Impuestos</title>
+</head>
+
+<body>
+    <header><h1>Calculadora de Factura con Impuestos</h1></header>
+    <main>
+        <section class="container">
+        <form action="index.html">
+        <label for="total">
+            <input type="number" id="total" value="" placeholder="Ingrese el total de la factura:">
+        </label>
+        <label for="impuestos">
+            <input type="number" id="impuestos" value="" placeholder="Ingrese el porcentaje de impuestos (%):">
+        </label>
+        <div class="botones">
+            <button type="button" class="boton" onclick="ope.calcularTotal()">Aceptar</button>
+            <button type="submit" class="boton" >Regresar</button>
+        </div>
+        <div id="resultado" >
+        Respuesta:
+        </div>
+    </main>
+    <footer>
+        <p><h6>InovaByte Tech</h6></p>
+     </footer>
+     <script src="sript.js"></script>
+    
+</body>
+</html>
